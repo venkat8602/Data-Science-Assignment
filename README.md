@@ -11,7 +11,3 @@ This application extracts and analyzes news articles for a given company, perfor
 - **Text-to-Speech**: Generates Hindi audio summary of the analysis.
 - **Web Interface**: Simple Streamlit interface for user interaction.
 - **API**: FastAPI backend for communication between frontend and services.
-
-## Installation
-
-1. Clone the repository:
