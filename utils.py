@@ -50,7 +50,7 @@ def search_news_articles(company_name: str, num_articles: int = 10) -> List[Dict
     
     try:
         # Get API key from environment variables
-        api_key = os.getenv("85224784430146e06ea765c5bda536ed3f64635f0765b12eddc078072a50b74b")
+        api_key = "85224784430146e06ea765c5bda536ed3f64635f0765b12eddc078072a50b74b"
         
         params = {
             "q": f"{company_name} news",
